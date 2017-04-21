@@ -15,6 +15,14 @@ body {
 	background: url('../img/tile.jpg') top left repeat;
 }
 
+input:focus {
+    outline: none; 
+}
+
+body > footer > div > div:nth-child(2) {
+    float: right;
+}
+
 .lead {
     margin-bottom: 45px;
 }
@@ -469,6 +477,34 @@ section.main-content {
 	font-weight: normal;
 }
 
+#featurette > div > div > div:nth-child(3) > ul > li:nth-child(2) {
+    font-size: 0.87em;
+    text-decoration: none;
+    color: #dd5638;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+#featurette > div > div > div:nth-child(3) > ul > form > input {
+    border-radius: 0em 0.4em 0.4em 0;
+    height: 2.5em;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+
+#subscribe-email {
+    height: 2.5em;
+    width: 102%;
+    background-color: #222222;
+    border-style: none;
+    color: #F6F6F4;
+    border-radius: 0.4em 0 0 0.4em;   
+}
+
+#featurette > div > div > div:nth-child(3) > ul > form > div {
+    width: 239px;
+}
+
 #kudos {
 	text-align: center;
 }
@@ -486,6 +522,10 @@ section.main-content {
 }
 
 #featurette > div > div > div:nth-child(2) > ul {
+    text-align: left;
+}
+
+#featurette > div > div > div:nth-child(3) > ul {
     text-align: left;
 }
 
